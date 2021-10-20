@@ -1,0 +1,54 @@
+body {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(16, 15, 17);
+  user-select: none;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none;
+}
+
+.area {
+  border: 3px solid yellow;
+  border-radius: 60px;
+  height: 45px;
+  overflow: hidden;
+  background-color: rgb(41, 0, 68);
+  margin: 180px;
+  margin-bottom: 75px;
+  padding: 50px;
+  color: white;
+  font-size: 20px;
+}
+
+.cursor {
+  font-size: 25px;
+  padding-left: 1px;
+  animation: blinker 0.8s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+button {
+  background-color: yellowgreen;
+  padding: 20px 80px;
+  font-size: 25px;
+  border-radius: 20px;
+}
+
+.bottom {
+  text-align: center;
+}
+
+.bottom-text {
+  color: whitesmoke;
+  font-size: 18px;
+}
